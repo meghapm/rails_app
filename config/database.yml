@@ -8,7 +8,7 @@ development:
   database: test
   username: root
   password: root
-  host: localhost
+  host: 10.0.2.15
   pool: 5
   timeout: 5000
 
