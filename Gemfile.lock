@@ -1,5 +1,6 @@
 GEM
-  remote: file:/home/megha/gem_repo/
+  remote: http://rubygems.org/
+  remote: http://gems.github.com/
   specs:
     actionmailer (3.2.16)
       actionpack (= 3.2.16)
@@ -24,6 +25,7 @@ GEM
       tzinfo (~> 0.3.29)
     activerecord-mysql2-adapter (0.0.3)
       mysql2
+    activerecord-oracle_enhanced-adapter (1.4.3)
     activeresource (3.2.16)
       activemodel (= 3.2.16)
       activesupport (= 3.2.16)
@@ -82,6 +84,7 @@ GEM
     rdoc (3.12.2)
       json (~> 1.4)
     ref (1.0.5)
+    ruby-oci8 (2.1.7)
     sass (3.2.14)
     sass-rails (3.2.6)
       railties (~> 3.2.0)
@@ -107,9 +110,11 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord-mysql2-adapter
+  activerecord-oracle_enhanced-adapter (~> 1.4.3)
   coffee-rails (~> 3.2.1)
   jquery-rails
   mysql2
   rails (= 3.2.16)
+  ruby-oci8 (~> 2.1.7)
   sass-rails (~> 3.2.3)
   therubyracer
